@@ -29,6 +29,7 @@ public:
         model = NetworkModel(std::move(seq), std::make_unique<MSE>(), lr);
         return is;
     }
+
 private:
     void UpdateWeights(const Batch &batch, double learning_rate_epoch);
     void ComputeGradients(const Batch &batch);

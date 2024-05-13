@@ -17,5 +17,4 @@ int32_t DecodeVector(const Vector &encoded_vector) {
     }
     return max_index;
 }
-
 }

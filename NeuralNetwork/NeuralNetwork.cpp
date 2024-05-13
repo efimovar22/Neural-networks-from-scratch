@@ -58,4 +58,5 @@ namespace NeuralNetwork {
         }
         sequential.BackwardPropagate(derivative);
     }
+    
 } 

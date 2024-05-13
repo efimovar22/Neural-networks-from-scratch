@@ -58,7 +58,6 @@ namespace NeuralNetwork {
         gradient_b.resize(layer_count);
         inputs_saved.resize(layer_count);
         outputs_saved.resize(layer_count);
-
         for (size_t i = 0; i < layer_count; ++i) {
             gradient_w[i] = layers[i].weights;
             gradient_b[i] = layers[i].biases;

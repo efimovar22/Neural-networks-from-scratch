@@ -45,5 +45,4 @@ private:
     std::vector<Layer> layers;
     std::vector<std::unique_ptr<ActivationFunction>> activations;
 };
-
 }

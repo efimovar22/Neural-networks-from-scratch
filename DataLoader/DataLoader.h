@@ -15,6 +15,7 @@ class DataLoader {
 public:
     DataLoader(const std::string &image_path, const std::string &label_path, size_t size_of_batch);
     ~DataLoader();
+    
 private:
     friend class Model;
     void LoadNextBatch(Batch &batch);

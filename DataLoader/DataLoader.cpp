@@ -88,5 +88,4 @@ namespace NeuralNetwork {
         label_stream.read(reinterpret_cast<char *>(&label), sizeof(label));
         return label;
     }
-
 }
