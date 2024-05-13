@@ -21,5 +21,4 @@ private:
     [[nodiscard]] double applyActivation(const Vector &target, const Vector &output) const final;
     [[nodiscard]] Vector computeJacobian(const Vector &target, const Vector &output) const final;
 };
-
 }

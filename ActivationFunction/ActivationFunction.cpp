@@ -30,4 +30,4 @@ namespace NeuralNetwork {
     [[nodiscard]] Matrix Softmax::computeJacobian(const Vector &x) const {
         return Compute(x).asDiagonal() - Compute(x) * Compute(x).transpose();
     }
-} 
+}
