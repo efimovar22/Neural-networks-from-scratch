@@ -1,0 +1,4 @@
+Checks: '-*,llvm-*,clang-analyzer-*'
+WarningsAsErrors: ''
+HeaderFilterRegex: ''
+FormatStyle: file
